@@ -7,7 +7,8 @@ module.exports = {
     fallback: {
       fs: false,
       path: false,
-      util: false
+      util: false,
+      events: require.resolve('events/')
     }
   },
   output: {
